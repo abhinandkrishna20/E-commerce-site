@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer =() =>{
     return(
-    <>
+    <div className="sea">
 <div className="container-fluid  dpurple text-light">
     <div className="row">
     <div className="col-lg-12 text-center">
@@ -37,6 +37,6 @@ const Footer =() =>{
     </div>
 
 </div>
-</>);
+</div>);
 }
 export default Footer;

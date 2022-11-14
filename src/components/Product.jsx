@@ -28,10 +28,10 @@ axios.post("http://localhost:1234/cartitem/",productInfo)
   }
 
   return (
-    <>
+    <div className="sea" style={{"height":"100%"}}>
       <Header />
       {/* <h2><Link exact path='/addproduct' element={<Addproduct />}> AddProduct</Link> </h2> */}
-      <div className="container-fluid height600 text-center sea rounded">
+      <div className="container-fluid height600 text-center rounded">
         <h1 className="text-success p-4">Shabi's Aquarium </h1>
         <h3 className="text-primary">{msg}</h3>
         <div className="row">
@@ -57,9 +57,10 @@ axios.post("http://localhost:1234/cartitem/",productInfo)
           })}
         {/* <Productcard /> */}
         </div>
+        
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 export default Home;

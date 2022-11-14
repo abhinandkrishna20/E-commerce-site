@@ -5,6 +5,7 @@ import Mycart from './components/Mycart';
 import Login from './components/Login';
 import Register from './components/Register';
 import Addproduct from './components/Addproduct';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       </Routes>
       {/* <Home /> */}
     </HashRouter>
+    <Footer />
   </>
    );
 }
