@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Dron from './Dron';
+
 
 const Header = () => {
     return (
@@ -29,12 +29,6 @@ const Header = () => {
                             <li className="nav-item">
                             <Link className="nav-link active" to="/addproduct"><i className='fa fa-plus'></i> Addproduct</Link>
                             </li>
-                            <li className="nav-item">
-                           <Dron />
-                            </li>
-
-
-
                         </ul>
                         <form class="d-flex">
         <input className="form-control me-2" type="text" placeholder="Search" />
